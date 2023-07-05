@@ -1,7 +1,6 @@
 A Hard but Fun game of finding zeros
 
-Link: 
-
+Link: https://lucent-medovik-108e08.netlify.app/
 
 # Getting Started with Create React App
 
