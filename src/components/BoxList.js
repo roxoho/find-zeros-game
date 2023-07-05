@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Number } from './Number';
 import { GlobalContext } from '../context/GlobalState';
 
+
 export const BoxList = () => {
 
   const { numbers }=useContext(GlobalContext);
