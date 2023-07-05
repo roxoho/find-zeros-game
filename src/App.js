@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Header } from './components/Header';
+import { BoxList } from './components/BoxList';
+import { GlobalProvider } from './context/GlobalState';
+import { FinalScore } from './components/CalculateScore';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+export default function App(){
+
+  
+  return(
+    
+    <div className='g'>
+    <GlobalProvider>
+    <div className='item1'><Header /></div>
+    <div className="item4"><FinalScore /> </div>
+    <div className='item3'><BoxList /> </div>
+    </GlobalProvider>
     </div>
-  );
+  )
 }
-
-export default App;
