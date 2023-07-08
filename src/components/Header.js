@@ -3,7 +3,7 @@ import React from "react";
 export const Header = () => {
     return (
         
-        <h1>FIND ZEROS GAME</h1>
+        <h1>ZERO HUNT</h1>
         
     )
 }
